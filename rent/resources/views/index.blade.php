@@ -1,10 +1,6 @@
 @extends('layout.master')
 @section('content')
 <!-- banner section start -->
-{{--  #007495 تركواز
-     #434960 رمادي
-      #273f54 كحلي
-      #fcf8f1 ابيض --}}
       <div class="banner_section layout_padding">
          <div class="container">
             <div class="row">
