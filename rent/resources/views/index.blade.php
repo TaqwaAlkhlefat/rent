@@ -12,7 +12,7 @@
                               <h1 class="banner_taital">Car Rent <br><span style="color: #fe5b29;">For You</span></h1>
                               <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority</p>
                               <div class="btn_main">
-                                 <div class="contact_bt"><a href="#">Read more</a></div>
+                                 <div class="contact_bt"><a href="#">Read More</a></div>
                                  <div class="contact_bt active"><a href="#">Contact Us</a></div>
                               </div>
                            </div>
