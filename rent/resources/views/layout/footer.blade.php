@@ -6,7 +6,7 @@
                   <div class="footeer_logo"><img src="images/logo.png"></div>
                </div>
             </div>
-            <div class="footer_section_2">
+            {{-- <div class="footer_section_2">
                <div class="row">
                   <div class="col">
                      <h4 class="footer_taital">Subscribe Now</h4>
@@ -40,7 +40,7 @@
                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
-                     </div>
+                     </div> --}}
                   </div>
                </div>
             </div>
@@ -52,7 +52,10 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <p class="copyright_text">2023 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
+                  <p class="copyright_text">
+                    Contact Information:
+                    Navigation Links
+                     <a href="https://html.design">Social Media Links</a></p>
                </div>
             </div>
          </div>
