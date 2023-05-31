@@ -36,9 +36,9 @@ Route::get('/services', function () {
 })->name('services');
 
 // Vehicles Page
-Route::get('/vehicles', function () {
-    return view('vehicles');
-})->name('vehicles');
+Route::get('/gallery', function () {
+    return view('gallery');
+})->name('gallery');
 
 // Client Page
 Route::get('/client', function () {
@@ -50,4 +50,10 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+// lessor Page
+Route::get('/lessor', function () {
+    return view('lessor.index');
+})->name('lessor.index');
 
+
+// Route::get('/lessors/{lessor}', 'LessorController@index')->name('lessor.index');
