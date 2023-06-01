@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LessorController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -51,9 +53,11 @@ Route::get('/contact', function () {
 })->name('contact');
 
 // lessor Page
-Route::get('/lessor', function () {
-    return view('lessor.index');
-})->name('lessor.index');
+// Route::get('/lessor', function () {
+//     return view('lessor.index');
+// })->name('lessor.index');
 
 
-// Route::get('/lessors/{lessor}', 'LessorController@index')->name('lessor.index');
+// Route::get('/lessor', 'LessorController@index')->name('lessor.index');
+Route::get('/lessor', [LessorController::class, 'index'])->name('lessor.index');
+

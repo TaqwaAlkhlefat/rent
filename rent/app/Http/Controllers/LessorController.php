@@ -10,7 +10,10 @@ class LessorController extends Controller
 
 public function index(Lessor $lessor)
 {
-    return view('lessor.index', compact('lessor'));
+    $lessor = Lessor::first(); // Retrieve the first record from the lessors table
+    $properties = $lessor->products;
+
+    return view('lessor.index', compact('lessor','properties'));
 }
 
 }
